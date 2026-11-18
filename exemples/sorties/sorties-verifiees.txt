@@ -1,0 +1,36 @@
+== 01_modeles_gratuits (2026-11-18T19:37:03+01:00)
+baidu/ernie-5.5-flash-preview:free                      contexte   1024000
+cohere/north-mini-code:free                             contexte    256000
+dots-studio/dots-3-note-preview:free                    contexte    512000
+google/gemma-4-26b-a4b-it:free                          contexte    262144
+google/gemma-4-31b-it:free                              contexte    262144
+google/lyria-3-clip-preview                             contexte   1048576
+google/lyria-3-pro-preview                              contexte   1048576
+inclusionai/ling-3.2-flash:free                         contexte   1048576
+liquid/lfm-3-1.7b:free                                  contexte    262144
+nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free      contexte    256000
+nvidia/nemotron-3-ultra-550b-a55b:free                  contexte   1000000
+nvidia/nemotron-3.5-lightning:free                      contexte   1000000
+nvidia/nemotron-3.5-super-vl:free                       contexte   1000000
+openrouter/free                                         contexte    200000
+particle-ai/particle-1:free                             contexte   1048576
+recursive/flint-v1.0:free                               contexte    262144
+thinkingmachines/inkling-2-small:free                   contexte   1048576
+17 modèles gratuits sur 478
+== 02_premier_appel (2026-11-18T19:37:03+01:00)
+modèle : inclusionai/ling-3.2-flash:free | fournisseur : Ant Digital
+réponse : OpenRouter est une plateforme qui offre un point d'accès API unifié permettant d'utiliser et de comparer de nombreux modèles de langage (LLM) provenant de différents fournisseurs (OpenAI, Anthropic, Meta, Google, Mistral, etc.) via une seule interface, avec une facturation à l'usage et des fonctionnalités de routage automatique vers le modèle le plus adapté.
+jetons : entrée 32 | sortie 180 | coût 0
+== 04_consommation (2026-11-18T19:37:06+01:00)
+limit            2
+limit_remaining  2
+usage            0
+usage_daily      0
+is_free_tier     False
+expires_at       2027-02-16T18:35:04.989Z
+crédits achetés 10 | dépensés 0
+== 03_python_openai (2026-11-18T19:37:06+01:00)
+modèle : inclusionai/ling-3.2-flash:free
+- **Abstraction multi-fournisseurs** : une seule API pour changer de modèle ou basculer en secours sans toucher au code applicatif.
+- **Gouvernance** : point central pour l'authentification, les quotas, le filtrage (PII, modération) et la journalisation des requêtes.
+- **Observabilité et coûts** : suivi des tokens et latences par équipe, cache sémantique et routage vers le modèle le moins cher adapté à la tâche.

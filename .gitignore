@@ -1,0 +1,6 @@
+# Clé OpenRouter (jamais versionnée)
+.env
+# Captures brutes, avant masquage
+donnees/
+__pycache__/
+.venv/
