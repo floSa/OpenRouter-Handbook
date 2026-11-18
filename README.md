@@ -5,7 +5,7 @@ Accès à plusieurs centaines de modèles d'IA en ligne, gratuits ou payants, av
 Ce dépôt contient le manuel de prise en main (`documentations/`), avec captures, et les exemples d'appels exécutés (`exemples/`).
 
 ```text
-OpenRouter-Prise-en-main/
+OpenRouter-Handbook/
 ├── README.md
 ├── LICENSE
 ├── .env.example            modèle du fichier de clé (.env, jamais versionné)
